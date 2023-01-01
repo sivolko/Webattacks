@@ -17,3 +17,14 @@ In this we gonna learn following topics together:-
 
 
 
+#1. Web Application Architecture 
+
+So here comes the Question What is **WebApp**?
+
+Answer :- According to the wiki, "In Computing, a web application or web app is a client-server computer program which the client(including the user interface and client-side logic) runs in a web browser"
+
+For example :- Static Webpage:---> Provides information 
+               Dynamic Webpage:--> Provides information and features
+               
+               
+
