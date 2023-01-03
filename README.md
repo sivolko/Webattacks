@@ -114,8 +114,58 @@ GET :- Transfer a current representation of the target resource. Safe
 HEAD :- Same as GET, but only transfer the satus the line and header section.
 
 POST :- Perform resource-spacific processing on the request payload 
+
 PUT :-  Replace all current representations of the target resource with the request payload.
+
 DELETE:- Remove all current representations of the target resouces
+
 CONNECT:- Establish a tunnel to the server identified by the target resource
+
 OPTIONS:- Describe the communication options for the target resource.
+
 TRACE:-  Perform a message loop-back test along the path.
+
+**Response Status code** 
+
+1xx ----> Informational ----> The request was received,continuing process 
+
+2xx  ----> Successful   ----> The request was successfully received,understood,and accepted
+
+3xx   -----> Redirection  -----> Further action needs to be taken in order to complete the request
+
+4xx   ----> Client Error   ----> The request contains bad syntax or cannot be fulfilled 
+
+5xx   ----> Server Error   ----> The server Failed to fulfill an apparently valid request.
+
+A few common HTTP request :- 
+
+200 :- ok
+
+301:- Moved Permanently 
+
+302 :- Found 
+
+304  :- Not Modified 
+
+400 :- Bad Request 
+
+401  :-  Unauthorised 
+
+403   :- Forbidden 
+
+404  : - Not Found 
+
+500   :-  Internal Server Error 
+
+502   :- Bad Gateway
+
+503  :-  Service Unavaiable 
+
+
+# Network,Protocols and HTTP
+
+* HTTP uses top layers of OSI and TCP/IP Model
+* Normally HTTP uses TCP,but it can be transferred via UDP 
+* Deafult HTTP TCP port is 80
+* HTTPS uses encryption to transfer the HTTP traffic. The S stands for secure.
+* HTTPS TCP port is 443.
