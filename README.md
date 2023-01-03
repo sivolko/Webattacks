@@ -66,3 +66,6 @@ Web Clients are also know as User Agents responsible for the followings :-
 * Mozilla Firefox, Microsoft Edge, Google Chrome
 * ncat, telenet,curl,wget,programming languages..
 
+![image](https://user-images.githubusercontent.com/42417756/210399658-e7ae9254-2d88-421b-b968-dadaf83b9fc6.png)
+ Usecase of Telnet command 
+
